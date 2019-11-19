@@ -1,0 +1,33 @@
+{
+  "React Constroctor" : {
+    "prefix": "ccst",
+    "body": [
+      "constructor(props) {",
+      "  super(props);" ,
+      "  this.state = {$1};",
+      "}"
+     ],
+   "description": "add an react constructor"
+  },
+  "React base template": {
+    "prefix": "crt",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export default class ${0:name} extends React.Component {",
+      "  constructor(props) {",
+      "    super(props);" ,
+      "    this.state = {};",
+      "  }",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        description",
+      "      </div>",
+      "    );",
+      "  }",
+      "}"
+     ],
+   "description": "add an react class"
+   }
+}

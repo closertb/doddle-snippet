@@ -1,0 +1,14 @@
+{
+  "Print to console": {
+	  "prefix": "clg",
+	 	"body": [
+	 		"console.log('$1');"
+	 	],
+	 	"description": "Log output to console"
+   },
+   "ADD NOTES": {
+    "prefix": "adn",
+    "body": "// NOTE: $0",
+    "description": "add notes here"
+  }
+}

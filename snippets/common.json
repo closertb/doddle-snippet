@@ -1,0 +1,29 @@
+{
+  "ADD NOTES": {
+    "prefix": "forl",
+    "body": [
+      "for (let i = 0; i < length; i++) {",
+      "\t${0:// body}", 
+      "}"
+   ],
+    "description": "Code snippet for loop"
+  },
+  "forEach": {
+    "prefix": "fe",
+    "body": [
+      "${1:array}.forEach((item) => {",
+      "\t${2:// body}",
+      "});"
+    ],
+    "description": "Code snippet for \"forEach\""
+  },
+  "setTimeout": {
+    "prefix": "st",
+    "body": [
+      "setTimeout(() => {",
+      "\t${0:// body}",
+      "}, ${1:1000});"
+    ],
+    "description": "Code snippet for 'setTimeout'"
+  }
+}

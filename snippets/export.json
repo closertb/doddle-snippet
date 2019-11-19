@@ -1,0 +1,28 @@
+{
+  "export function": {
+    "prefix": "expf",
+    "body": [
+      "export function ${0:string}() {",
+      "\t${1:// body}", 
+      "}\n"
+   ],
+    "description": "Code snippet for export function"
+  },
+  "export common": {
+    "prefix": "expc",
+    "body": [
+      "export const ${0: // name} = '';\n"
+   ],
+    "description": "Code snippet for export const"
+  },
+  "export fields": {
+    "prefix": "exps",
+    "body": [
+      "export const ${0:string} = [{",
+      "\tkey: '',", 
+      "\tname: ''",
+      "}];\n"
+   ],
+    "description": "Code snippet for export fields"
+  }
+}

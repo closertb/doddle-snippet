@@ -1,0 +1,38 @@
+{
+    "name": "doddle-snippet",
+    "displayName": "doddle-snippet",
+    "description": "an snippet code project for doddle self",
+    "version": "0.0.1",
+    "publisher": "closertb",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/closertb/doddle-snippet.git"
+    },
+    "homepage": "https://closertb.site",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/common.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/react.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/tool.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/export.json"
+            }
+        ]
+    }
+}
