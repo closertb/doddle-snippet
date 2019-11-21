@@ -2,7 +2,7 @@
     "name": "doddle-snippet",
     "displayName": "doddle-snippet",
     "description": "an snippet code project for doddle self",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "closertb",
     "engines": {
         "vscode": "^1.0.0"
