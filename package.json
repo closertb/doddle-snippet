@@ -2,7 +2,7 @@
     "name": "doddle-snippet",
     "displayName": "doddle-snippet",
     "description": "an snippet code project for doddle self",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "closertb",
     "engines": {
         "vscode": "^1.0.0"
@@ -22,11 +22,19 @@
                 "path": "./snippets/common.json"
             },
             {
+                "language": "typescript",
+                "path": "./snippets/common.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/react.json"
             },
             {
                 "language": "javascript",
+                "path": "./snippets/tool.json"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/tool.json"
             },
             {
