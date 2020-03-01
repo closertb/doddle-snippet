@@ -40,6 +40,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/export.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/markdown.json"
             }
         ]
     }

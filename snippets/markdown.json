@@ -1,0 +1,9 @@
+{
+	"cfi": {
+		"prefix": "cfi",
+		"body": [
+			"<font color=$1>$2</font>"
+		],
+		"description": "insert a colorful and outstanding statement"
+	}
+}
